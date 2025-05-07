@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-06xl_8zk!hq#q-k9&1@&ni96a@1(nfsqaam#r$i4(==^@)pkm8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["https://basesolve-kjq1.onrender.com/"]
+ALLOWED_HOSTS = [
+    "basesolve-kjq1.onrender.com",
+    "127.0.0.1",
+    "localhost"
+]
+
 
 
 # Application definition
